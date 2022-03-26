@@ -26,9 +26,9 @@ publishing {
     }
     publications {
         release(MavenPublication) {
-            groupId = "com.github.codex-team"
+            groupId = "com.github.shiplayer"
             artifactId = "catcher"
-            version = "3.0.1"
+            version = "3.0.2.1-pre"
 
             from components.java
         }
